@@ -19,8 +19,8 @@ server:
 
 alibaba:
   cloud:
-    access-key: LTAI5tDcnxoWAPkVpiTM3pkm
-    secret-key: sH1vuKnpQnOAmPE9gm4i96TQrw4vgg
+    access-key: 
+    secret-key: 
     oss:
       endpoint: oss-cn-hangzhou.aliyuncs.com
       bucket: sjc-mall
