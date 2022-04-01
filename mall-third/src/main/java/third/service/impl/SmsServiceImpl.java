@@ -24,14 +24,14 @@ public class SmsServiceImpl implements SmsService {
         String host = "https://gyytz.market.alicloudapi.com";
         String path = "/sms/smsSend";
         String method = "POST";
-        String appcode = "fdd9d8d416f4455ab0dd73289bf4c450";
+        String appcode = "";
         Map<String, String> headers = new HashMap<String, String>();
         headers.put("Authorization", "APPCODE " + appcode);
         Map<String, String> querys = new HashMap<String, String>();
         querys.put("mobile", phone);
         querys.put("param", "**code**:"+code+"**minute**:1");
-        querys.put("smsSignId", "2e65b1bb3d054466b82f0c9d125465e2");
-        querys.put("templateId", "908e94ccf08b4476ba6c876d13f084ad");
+        querys.put("smsSignId", "");
+        querys.put("templateId", "");
         Map<String, String> bodys = new HashMap<String, String>();
         try {
             HttpResponse response = HttpUtils.doPost(host, path, method, headers, querys, bodys);
