@@ -1,0 +1,30 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: 20551
+    name: dubbo
+  scan:
+    base-packages: auth.service.impl
+spring:
+  session:
+    store-type: redis
+  application:
+    name: mall-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    url: jdbc:mysql:///mallproject
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    cache: false
+server:
+  port: 30000

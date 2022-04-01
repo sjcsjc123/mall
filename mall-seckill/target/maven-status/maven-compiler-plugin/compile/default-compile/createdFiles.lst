@@ -1,0 +1,5 @@
+seckill\service\SecKillServiceImpl.class
+seckill\controller\SecKillController.class
+seckill\domain\SecKillGoods.class
+seckill\mapper\SecKillMapper.class
+seckill\SecKillApplication.class

@@ -1,0 +1,6 @@
+goods\mapper\ShopGoodsMapper.class
+goods\service\ShopGoodsServiceImpl.class
+goods\mapper\GoodsNumberLogMapper.class
+goods\GoodsApplication.class
+goods\mapper\GoodsMapper.class
+goods\service\GoodsServiceImpl.class

@@ -1,0 +1,21 @@
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: 20586
+    name: dubbo
+spring:
+  application:
+    name: business
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mallproject
+    password: root
+    username: root
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

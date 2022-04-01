@@ -1,0 +1,34 @@
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: 21200
+    name: dubbo
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes:
+        - id: mall-customer
+          uri: lb://mall-customer
+          predicates:
+            - Host=customer.mall.com
+
+        - id: mall-elasticsearch
+          uri: lb://mall-elasticsearch
+          predicates:
+            - Host=search.mall.com
+
+        - id: mall-auth
+          uri: lb://mall-auth
+          predicates:
+            - Host=auth.mall.com
+
+
+
+server:
+  port: 88

@@ -1,0 +1,25 @@
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: 20580
+    name: dubbo
+  scan:
+    base-packages: goods.service
+spring:
+  application:
+    name: mall-goods
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mallproject
+    password: root
+    username: root
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 8007

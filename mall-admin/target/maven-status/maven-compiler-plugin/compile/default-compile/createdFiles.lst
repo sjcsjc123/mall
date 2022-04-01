@@ -1,0 +1,12 @@
+business\mapper\BusinessRoleMapper.class
+business\service\BusinessServiceImpl.class
+business\controller\ShopGoodsController.class
+business\security\entity\User.class
+business\mapper\BusinessMapper.class
+business\mapper\BusinessShopMapper.class
+business\security\config\SecurityConfig.class
+business\controller\BusinessShopController.class
+business\controller\BusinessController.class
+business\filter\JwtAuthenticationTokenFilter.class
+business\service\BusinessShopServiceImpl.class
+business\BusinessApplication.class

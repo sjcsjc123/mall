@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-goods" />
+        <module name="mall-test-sso-client2" />
+        <module name="mall-test-sso-server" />
+        <module name="mall-auth" />
+        <module name="mall-common" />
+        <module name="mall-customer" />
+        <module name="mall-api" />
+        <module name="mall-seckill" />
+        <module name="mall-coupon" />
+        <module name="mall-shipping" />
+        <module name="mall-admin" />
+        <module name="mall-order" />
+        <module name="mall-third" />
+        <module name="mall-elasticsearch" />
+        <module name="mall-pay" />
+        <module name="mall-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="mall-test-sso-client1" target="8" />
+      <module name="mall-third-part" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-third" options="" />
+    </option>
+  </component>
+</project>

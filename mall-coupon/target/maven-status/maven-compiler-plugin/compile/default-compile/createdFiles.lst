@@ -1,0 +1,5 @@
+coupon\service\CouponServiceImpl.class
+coupon\listener\CouponMessageListener.class
+coupon\mqEntity\CouponMessage.class
+coupon\CouponApplication.class
+coupon\mapper\CouponMapper.class

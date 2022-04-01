@@ -1,0 +1,5 @@
+elasticsearch\mapper\ShopGoodsMapper.class
+elasticsearch\service\EsGoodsServiceImpl.class
+elasticsearch\controller\EsGoodsController.class
+elasticsearch\EsApplication.class
+elasticsearch\mapper\EsGoodsMapper.class

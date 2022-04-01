@@ -1,0 +1,14 @@
+api\customer\CustomerCartOutService.class
+api\business\BusinessShopService.class
+api\shipping\ShippingService.class
+api\business\BusinessService.class
+api\pay\PayService.class
+api\coupon\CouponService.class
+api\order\OrderService.class
+api\seckill\SecKillService.class
+api\customer\CustomerService.class
+api\customer\ReadHistoryService.class
+api\elasticsearch\EsGoodsService.class
+api\goods\ShopGoodsService.class
+api\goods\GoodsService.class
+api\customer\CustomerCartService.class

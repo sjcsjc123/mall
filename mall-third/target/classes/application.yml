@@ -1,0 +1,26 @@
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  protocol:
+    port: 20550
+    name: dubbo
+  scan:
+    base-packages: third.service.impl
+spring:
+  application:
+    name: mall-third
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+server:
+  port: 40000
+
+alibaba:
+  cloud:
+    access-key: LTAI5tDcnxoWAPkVpiTM3pkm
+    secret-key: sH1vuKnpQnOAmPE9gm4i96TQrw4vgg
+    oss:
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      bucket: sjc-mall
